@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.ibm.cloud</groupId>
+        <artifactId>kafka-eventing-parent-starter</artifactId>
+        <version>0.0.3-SNAPSHOT</version>
+    </parent>
+
+    <groupId>com.ibm.cloud</groupId>
+    <artifactId>kafka-avro-eventing-spring-boot-starter</artifactId>
+    <packaging>jar</packaging>
+
+    <properties>
+        <avro.version>1.9.1</avro.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.avro</groupId>
+            <artifactId>avro</artifactId>
+            <version>${avro.version}</version>
+        </dependency>
+    </dependencies>
+</project>
