@@ -20,7 +20,7 @@
 
     <properties>
         <org.reflections.version>0.9.11</org.reflections.version>
-        <com.fasterxml.jackson.core.version>2.10.1</com.fasterxml.jackson.core.version>
+        <com.fasterxml.jackson.core.version>2.10.5.1</com.fasterxml.jackson.core.version>
     </properties>
 
     <dependencies>
